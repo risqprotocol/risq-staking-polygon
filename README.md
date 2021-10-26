@@ -1,1 +1,1 @@
-# Risq Staking Subgraph for AXAV
+# Risq Staking Subgraph for Polygon
