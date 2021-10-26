@@ -1,0 +1,16 @@
+{
+  "name": "polygonstake",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ risqprotocol/risq-staking-polygon",
+    "create-local": "graph create --node http://localhost:8020/ risqprotocol/risq-staking-polygon",
+    "remove-local": "graph remove --node http://localhost:8020/ risqprotocol/risq-staking-polygon",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 risqprotocol/risq-staking-polygon"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.21.0",
+    "@graphprotocol/graph-ts": "0.20.0"
+  }
+}
